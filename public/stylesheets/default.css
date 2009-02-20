@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+html, body { height: 100%; }
+
+body {
+	margin: 10px;
+}
+
+table {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  clear: left;
+}
+
+td {
+  padding: 3px;
+}
+
+th {
+background: #FCE9BD none repeat scroll 0 0;
+border: 1px solid #EDD49D;
+padding: 3px;
+}
+
+th a, th a:visited, th a:hover {
+color: #000000;
+}
+
+hr {
+	height: 1px;
+	color: #e5e5e5;
+	background-color: #e5e5e6;
+	border: 0px;
+}
+
+form {
+	margin: 0px;
+	padding: 0px;
+}
+
+a { text-decoration: none; color: blue; }
+a:visited { color: blue; }
+a:hover { text-decoration: underline; color: blue; }
+
+
+p {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 1.2em;
+	color: #555;
+	margin: 0px;
+}
+p a { text-decoration: none; color:#ff6c00; }
+p a:visited { color: #444; }
+p a:hover { text-decoration: underline; }
+
+h1 {
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	font-size: 23px;
+	line-height: 30px;
+	font-weight: bolder;
+	color: #333;
+	margin: 0px;
+	padding: 0px 0px 7px 0px;
+}
+h1 a { text-decoration: none; color: #244d00;}
+h1 a:visited { color: #244d00; }
+h1 a:hover { text-decoration: none; color: #4ca200; }
+
+h2 {
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1em;
+	font-weight: bolder;
+	color: #333;
+	margin: 0px;
+	padding: 0px;
+}
+h2 a { text-decoration: none; color: #244d00;}
+h2 a:visited { color: #244d00; }
+h2 a:hover { text-decoration: none; color: #4ca200; }
+
+h3 {
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 1em;
+	font-weight: normal;
+	color: #df6900;
+	margin: 0px;
+	padding: 0px;
+}
+h3 a { text-decoration: none; color: #244d00;}
+h3 a:visited { color: #244d00; }
+h3 a:hover { text-decoration: none; color: #4ca200; }
+
+h4 {
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 1.3em;
+	font-weight: bold;
+	color: #dc5800;
+	margin: 0px;
+	padding: 0px 0px 7px 0px;
+}
+h4 a { text-decoration: none; color: #dc5800; }
+h4 a:visited { color: #dc5800; }
+h4 a:Hover { text-decoration: none; color: #fff; background-color: #dc5800; }
+h4 span { color: #244d00; }
+
+img { border: 0px; }

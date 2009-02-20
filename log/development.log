@@ -1,0 +1,1516 @@
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 14:24:19) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 14:24:30) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 14:27:18) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 14:28:24) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 14:29:28) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 7ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 14:30:15) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 14:30:22) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 14:30:54) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 14:31:09) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 18ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 14:31:17) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 14:31:24) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 88ms (View: 84, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 14:31:35) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 14:31:38) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 14:31:54) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 14:32:00) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 14:32:13) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 14:32:17) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 14:33:43) [GET]
+Rendering template within layouts/application
+Rendering main/index
+
+
+ActionView::TemplateError (wrong number of arguments (0 for 2)) on line #8 of app/views/main/index.html.erb:
+5:     <p>This is a tooltip!</p>
+6:     <%= image_tag 'rails.png', :alt => "An image in a tooltip is possible!" %>
+7:   </div>
+8:   <%= simple_tooltip %>
+9: </div>
+
+    app/views/main/index.html.erb:8:in `simple_tooltip'
+    app/views/main/index.html.erb:8
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:39:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:39:in `render'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/template.rb:73:in `render_template'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:256:in `render'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:367:in `_render_with_layout'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:254:in `render'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1174:in `render_for_file'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:896:in `render_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:868:in `render_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1248:in `default_render'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1254:in `perform_action_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/webrick_server.rb:103:in `handle_dispatch'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/webrick_server.rb:74:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/webrick_server.rb:60:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/servers/webrick.rb:66
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_trace (38.2ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_request_and_response (0.7ms)
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 14:33:54) [GET]
+Rendering template within layouts/application
+Rendering main/index
+
+
+ActionView::TemplateError (wrong number of arguments (0 for 2)) on line #8 of app/views/main/index.html.erb:
+5:     <p>This is a tooltip!</p>
+6:     <%= image_tag 'rails.png', :alt => "An image in a tooltip is possible!" %>
+7:   </div>
+8:   <%= simple_tooltip %>
+9: </div>
+
+    app/views/main/index.html.erb:8:in `simple_tooltip'
+    app/views/main/index.html.erb:8
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:39:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:39:in `render'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/template.rb:73:in `render_template'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:256:in `render'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:367:in `_render_with_layout'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:254:in `render'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1174:in `render_for_file'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:896:in `render_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:868:in `render_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1248:in `default_render'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1254:in `perform_action_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/webrick_server.rb:103:in `handle_dispatch'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/webrick_server.rb:74:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/webrick_server.rb:60:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/servers/webrick.rb:66
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_trace (38.1ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_request_and_response (0.7ms)
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 14:34:37) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 14:35:13) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 14:35:23) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 14:35:32) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 14:36:10) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 14:37:01) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 14:39:30) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 14:39:31) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 14:43:42) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 14:44:17) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 14:44:22) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 14:56:49) [GET]
+Rendering template within layouts/application
+Rendering main/index
+
+
+ActionView::TemplateError (undefined local variable or method `simple_tooltip_javascript_file' for #<ActionView::Base:0xb6e3c810>) on line #7 of app/views/layouts/application.html.erb:
+4:   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+5:   <title>Gateway Intelitiva - BMG</title>
+6:   <%= stylesheet_link_tag 'default', 'common', 'tooltip' %>
+7:   <%= javascript_include_tag :defaults, simple_tooltip_javascript_file %>
+8: </head>
+9: 
+10: <body>
+
+    app/views/layouts/application.html.erb:7
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:39:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:39:in `render'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/template.rb:73:in `render_template'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:256:in `render'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:371:in `_render_with_layout'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:254:in `render'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1174:in `render_for_file'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:896:in `render_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:868:in `render_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1248:in `default_render'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1254:in `perform_action_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/webrick_server.rb:103:in `handle_dispatch'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/webrick_server.rb:74:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/webrick_server.rb:60:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/servers/webrick.rb:66
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_trace (36.4ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_request_and_response (0.7ms)
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 14:56:58) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-02-19 14:56:58) [GET]
+
+
+ActionController::RoutingError (No route matches "/javascripts/simple_tooltip_prototype.js" with {:method=>:get}):
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/webrick_server.rb:103:in `handle_dispatch'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/webrick_server.rb:74:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/webrick_server.rb:60:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/servers/webrick.rb:66
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 14:57:46) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-02-19 14:57:46) [GET]
+
+
+ActionController::RoutingError (No route matches "/javascripts/simple_tooltip_prototype.js" with {:method=>:get}):
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/webrick_server.rb:103:in `handle_dispatch'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/webrick_server.rb:74:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/webrick_server.rb:60:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/servers/webrick.rb:66
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 14:58:19) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 14:58:31) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 15:01:18) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 15:01:37) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 15:02:47) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 15:02:53) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 15:14:59) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 15:51:08) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 15:52:10) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 15:53:03) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 15:53:43) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 15:53:54) [GET]
+Rendering template within layouts/application
+Rendering main/index
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 15:55:34) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 6886ms (View: 6883, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 15:56:14) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 16ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 15:56:44) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 14ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 15:56:55) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 16ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 15:57:21) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 14ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 15:57:34) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 18ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 15:57:59) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 74ms (View: 71, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 15:58:10) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 15:58:21) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 16ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 15:59:05) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 16ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 16:00:54) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 16:01:22) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 16:07:21) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 16ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 16:07:44) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 16:07:55) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 16:07:57) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 16:08:39) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 12ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 16:09:13) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 16:49:31) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 17ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-02-19 16:49:31) [GET]
+
+
+ActionController::RoutingError (No route matches "/javascripts/context_tooltip_jquery.js" with {:method=>:get}):
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/webrick_server.rb:103:in `handle_dispatch'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/webrick_server.rb:74:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/webrick_server.rb:60:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/servers/webrick.rb:66
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+    /usr/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.3.0/lib/ruby-debug.rb:96:in `debug_load'
+    /usr/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.3.0/lib/ruby-debug.rb:96:in `main'
+    /usr/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.3.0/bin/rdebug-ide:74
+    /usr/bin/rdebug-ide:19:in `load'
+    /usr/bin/rdebug-ide:19
+
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 16:49:53) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-02-19 16:49:53) [GET]
+
+
+ActionController::RoutingError (No route matches "/javascripts/context_tooltip_jquery.js" with {:method=>:get}):
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/webrick_server.rb:103:in `handle_dispatch'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/webrick_server.rb:74:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/webrick_server.rb:60:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/servers/webrick.rb:66
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+    /usr/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.3.0/lib/ruby-debug.rb:96:in `debug_load'
+    /usr/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.3.0/lib/ruby-debug.rb:96:in `main'
+    /usr/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.3.0/bin/rdebug-ide:74
+    /usr/bin/rdebug-ide:19:in `load'
+    /usr/bin/rdebug-ide:19
+
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 16:50:38) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 12ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-02-19 16:50:38) [GET]
+
+
+ActionController::RoutingError (No route matches "/javascripts/context_tooltip_jquery.js" with {:method=>:get}):
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/webrick_server.rb:103:in `handle_dispatch'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/webrick_server.rb:74:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/webrick_server.rb:60:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/servers/webrick.rb:66
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+    /usr/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.3.0/lib/ruby-debug.rb:96:in `debug_load'
+    /usr/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.3.0/lib/ruby-debug.rb:96:in `main'
+    /usr/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.3.0/bin/rdebug-ide:74
+    /usr/bin/rdebug-ide:19:in `load'
+    /usr/bin/rdebug-ide:19
+
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 16:51:40) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-02-19 16:51:41) [GET]
+
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.context_tooltip" with {:method=>:get}):
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/webrick_server.rb:103:in `handle_dispatch'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/webrick_server.rb:74:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/webrick_server.rb:60:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/servers/webrick.rb:66
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+    /usr/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.3.0/lib/ruby-debug.rb:96:in `debug_load'
+    /usr/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.3.0/lib/ruby-debug.rb:96:in `main'
+    /usr/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.3.0/bin/rdebug-ide:74
+    /usr/bin/rdebug-ide:19:in `load'
+    /usr/bin/rdebug-ide:19
+
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 16:52:14) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 192.168.0.232 at 2009-02-19 17:08:02) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 16ms (View: 10, DB: 0) | 200 OK [http://192.168.0.69/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 18:58:40) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 15ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 18:59:55) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 19:00:06) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 30ms (View: 25, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 19:10:35) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 16ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 19:11:02) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 19:11:19) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 18ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 19:11:35) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 18ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 19:14:10) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 17ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 19:14:22) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 19:20:58) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 19:21:05) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 19:21:09) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 15ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 19:21:13) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 19:21:24) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 19:21:34) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 19:21:57) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 15ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 19:22:07) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 19:22:34) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 17ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 19:23:26) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 19:23:38) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 19:24:01) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 19:24:33) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 18ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 19:24:41) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 19:25:40) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 18ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 19:27:38) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 17ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 19:27:38) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 19:27:45) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 15ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 19:52:49) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 19:53:23) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 19:53:27) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 17ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 19:53:30) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 17ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 19:54:37) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 19:54:53) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 19:54:56) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 17ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 19:55:10) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 19:55:13) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 19ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 19:55:44) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 32ms (View: 27, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 19:55:58) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 15ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 19:56:19) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 18ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 19:56:29) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 19:56:34) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 19:56:37) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 19:56:44) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 15ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 19:56:46) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 17ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 19:59:27) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 21ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-19 20:00:08) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 17ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-20 11:53:48) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 22ms (View: 20, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-20 12:13:12) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 18ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-20 12:13:20) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-20 12:13:48) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-20 12:14:02) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 15ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-20 12:14:56) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-20 12:16:44) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-20 12:16:58) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 15ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-20 13:50:27) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-20 13:50:38) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 14ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-20 13:52:55) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 15ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-20 13:53:25) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 14ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-20 13:58:39) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-20 13:59:42) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-20 13:59:53) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 15ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-20 13:59:59) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-20 14:00:47) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-20 14:02:18) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 14ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-20 14:05:01) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-20 14:07:11) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 30ms (View: 26, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-20 14:07:59) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-20 14:08:22) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-20 14:09:29) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-20 14:10:42) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-20 14:11:07) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-20 14:11:21) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-20 14:33:04) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-20 14:33:16) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-20 14:33:24) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-20 14:35:18) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 16ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-20 14:44:37) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-20 14:44:54) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-20 14:45:06) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 15ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-20 14:45:21) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-20 14:45:26) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 15ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-20 14:45:36) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 14ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-20 15:20:21) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#prototype (for 127.0.0.1 at 2009-02-20 15:25:30) [GET]
+Rendering main/index
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/main/prototype]
+
+
+Processing MainController#prototype (for 127.0.0.1 at 2009-02-20 15:25:52) [GET]
+
+
+NoMethodError (undefined method `application_prototype' for #<MainController:0xb7297c48>):
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/layout.rb:222:in `__send__'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/layout.rb:222:in `active_layout'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/layout.rb:255:in `pick_layout'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:879:in `render_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /app/controllers/main_controller.rb:8:in `prototype'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/webrick_server.rb:103:in `handle_dispatch'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/webrick_server.rb:74:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/webrick_server.rb:60:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/servers/webrick.rb:66
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_trace (32.5ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_request_and_response (0.7ms)
+Rendering /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing MainController#prototype (for 127.0.0.1 at 2009-02-20 15:26:08) [GET]
+Rendering template within layouts/application_prototype
+Rendering main/index
+Completed in 14ms (View: 10, DB: 0) | 200 OK [http://localhost/main/prototype]
+
+
+Processing MainController#prototype (for 127.0.0.1 at 2009-02-20 15:26:20) [GET]
+Rendering template within layouts/application_prototype
+Rendering main/index
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/main/prototype]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-20 15:26:27) [GET]
+Rendering main/index
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-20 15:29:08) [GET]
+Rendering main/index
+Completed in 7ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-20 15:29:27) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 17ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#prototype (for 127.0.0.1 at 2009-02-20 15:29:29) [GET]
+Rendering template within layouts/application
+Rendering main/prototype
+Completed in 14ms (View: 10, DB: 0) | 200 OK [http://localhost/main/prototype]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-20 15:29:54) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#prototype (for 127.0.0.1 at 2009-02-20 15:30:00) [GET]
+Rendering template within layouts/application
+Rendering main/prototype
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/main/prototype]

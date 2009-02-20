@@ -1,0 +1,9 @@
+.tooltip {
+  border: 1px solid green;
+  padding: 3px;
+  float: left;
+  position: absolute;
+  width: 150px;
+  top: 0px;
+  right: -160px;
+}
