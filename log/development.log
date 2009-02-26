@@ -1674,3 +1674,269 @@ Rendering template within layouts/application
 Rendering main/index
 Rendered main/_boxes (2.3ms)
 Completed in 16ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-26 11:55:56) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered main/_boxes (1.3ms)
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-26 12:04:41) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered main/_boxes (1.2ms)
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#prototype (for 127.0.0.1 at 2009-02-26 12:04:43) [GET]
+Rendering template within layouts/application
+Rendering main/prototype
+Rendered main/_boxes (2.6ms)
+Completed in 85ms (View: 81, DB: 0) | 200 OK [http://localhost/main/prototype]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-26 12:05:02) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered main/_boxes (2.6ms)
+Completed in 19ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-26 12:07:33) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered main/_boxes (2.4ms)
+Completed in 17ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-26 12:07:50) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered main/_boxes (1.5ms)
+Completed in 19ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#prototype (for 127.0.0.1 at 2009-02-26 12:07:55) [GET]
+Rendering template within layouts/application
+Rendering main/prototype
+Rendered main/_boxes (2.2ms)
+Completed in 16ms (View: 12, DB: 0) | 200 OK [http://localhost/main/prototype]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-26 12:10:31) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered main/_boxes (2.2ms)
+Completed in 16ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-26 12:24:51) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered main/_boxes (1.4ms)
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#prototype (for 127.0.0.1 at 2009-02-26 12:24:53) [GET]
+Rendering template within layouts/application
+Rendering main/prototype
+Rendered main/_boxes (2.8ms)
+Completed in 19ms (View: 14, DB: 0) | 200 OK [http://localhost/main/prototype]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-26 13:35:20) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered main/_boxes (1.3ms)
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-26 13:35:22) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered main/_boxes (1.6ms)
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-26 13:35:48) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered main/_boxes (1.6ms)
+Completed in 94ms (View: 92, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-26 13:38:07) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered main/_boxes (2.4ms)
+Completed in 17ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-26 13:39:33) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered main/_boxes (2.2ms)
+Completed in 16ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-26 13:39:43) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered main/_boxes (1.5ms)
+Completed in 12ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-26 13:39:56) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered main/_boxes (1.4ms)
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-26 13:42:21) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered main/_boxes (1.4ms)
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-26 13:42:54) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered main/_boxes (1.4ms)
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-26 13:43:24) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered main/_boxes (2.0ms)
+Completed in 14ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-26 13:43:44) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered main/_boxes (1.6ms)
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-26 13:43:52) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered main/_boxes (2.2ms)
+Completed in 17ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-26 13:44:10) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered main/_boxes (1.2ms)
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-26 13:44:30) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered main/_boxes (1.3ms)
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-26 13:48:30) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered main/_boxes (1.6ms)
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-26 13:50:13) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered main/_boxes (1.6ms)
+Completed in 17ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-26 13:50:23) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered main/_boxes (2.2ms)
+Completed in 17ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-26 13:50:31) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered main/_boxes (1.2ms)
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-26 13:50:38) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered main/_boxes (1.5ms)
+Completed in 20ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-26 13:50:44) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered main/_boxes (1.4ms)
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-26 13:51:31) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered main/_boxes (1.4ms)
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-26 13:53:18) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered main/_boxes (1.8ms)
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-26 13:55:44) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered main/_boxes (11.4ms)
+Completed in 32ms (View: 29, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-26 13:56:05) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered main/_boxes (1.5ms)
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-02-26 13:56:13) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Rendered main/_boxes (1.6ms)
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#prototype (for 127.0.0.1 at 2009-02-26 14:02:20) [GET]
+Rendering template within layouts/application
+Rendering main/prototype
+Rendered main/_boxes (1.4ms)
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://localhost/main/prototype]
+
+
+Processing MainController#prototype (for 127.0.0.1 at 2009-02-26 14:05:11) [GET]
+Rendering template within layouts/application
+Rendering main/prototype
+Rendered main/_boxes (2.3ms)
+Completed in 17ms (View: 12, DB: 0) | 200 OK [http://localhost/main/prototype]
+
+
+Processing MainController#prototype (for 127.0.0.1 at 2009-02-26 14:05:24) [GET]
+Rendering template within layouts/application
+Rendering main/prototype
+Rendered main/_boxes (1.3ms)
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/main/prototype]

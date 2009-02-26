@@ -2,6 +2,18 @@
   margin-bottom: 25px;
 }
 
+#javascript-log {
+  float: right;
+  width: 600px;
+  height: 200px;
+  border: 1px dotted blue;
+  overflow: auto;
+}
+
+#javascript-log p {
+  width: 1000px;
+}
+
 .box {
   border: 1px solid red;
   padding: 3px;
