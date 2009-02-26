@@ -2,14 +2,7 @@
   <%= javascript_include_tag :defaults, context_tooltip_javascript_file(:library => 'jquery', :unobtrusive => false) %>
 <% end %>
 
-<% (1..4).each do |index| %>
-<div id="my-container-<%= index  %>" class="box">
-  <p>This is some text that is used in this box.</p>
-  <%= image_tag 'rails.png', :alt => "A tooltip should appear here." %>
-  <div id="my-tooltip-<%= index  %>" class="tooltip">
-    <p>This is a tooltip!</p>
-    <%= image_tag 'rails.png', :alt => "An image in a tooltip is possible!" %>
-  </div>
-  <%= context_tooltip("#my-tooltip-#{index}") %>
-</div>
-<% end %>
+<h1>JQuery Version</h1>
+<p id="see-other">See the <%= link_to "Prototype Version",  :action => 'prototype' %></p>
+
+<%= render :partial => 'boxes' %>
