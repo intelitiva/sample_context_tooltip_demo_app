@@ -3,7 +3,7 @@
   <tr id="row-<%= index %>">
     <td width="70">
       <div id="nubbin-<%= index %>"><a>delete</a> - <a>edit</a></div>
-      <%= context_tooltip "#nubbin-#{index}", :contextElement => "row-#{index}", :contextClick => 'keep', :click => 'keep', :displayEffect => 'none', :hideEffect => 'none', :delayWhenDisplaying => false, :delayWhenHiding => false %>
+      <%= context_tooltip "#nubbin-#{index}", :contextElement => "'row-#{index}'", :contextClick => "'keep'", :click => "'keep'", :displayEffect => "'none'", :hideEffect => "'none'", :delayWhenDisplaying => false, :delayWhenHiding => false %>
     </td>
     <td width="200">This is a content column</td>
     <td width="200">Another column</td>
