@@ -12,4 +12,4 @@ This is a rails application, just clone it, and install the context tooltip plug
 
 h2. Credits
 
-Vicente Mundim <vicente.mundim@intelitiva.com>
+Vicente Mundim (vicente.mundim@intelitiva.com)
