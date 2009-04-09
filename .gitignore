@@ -1,2 +1,7 @@
 nbproject/*
 log/*
+vendor/plugins/context_tooltip/*
+public/javascripts/jquery.context_tooltip_unobtrusive.js
+public/javascripts/jquery.context_tooltip.js
+public/javascripts/prototype.context_tooltip_unobtrusive.js
+public/javascripts/prototype.context_tooltip.js
