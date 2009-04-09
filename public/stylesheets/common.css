@@ -21,3 +21,19 @@
   width: 200px;
   position: relative;
 }
+
+#top-left-container {
+  float: left;
+}
+
+#top-right-container {
+  float: right;
+}
+
+#bottom-left-container {
+  float: left;
+}
+
+#bottom-right-container {
+  float: right;
+}
