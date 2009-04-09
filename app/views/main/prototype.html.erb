@@ -2,8 +2,7 @@
   <%= javascript_include_tag 'prototype', 'controls', 'effects', 'controls', 'application', context_tooltip_javascript_file(:library => 'prototype', :unobtrusive => false) %>
 <% end %>
 
-<div id="top-left-container" class="box">Top Left Tooltip container</div>
-<div id="top-right-container" class="box">Top Right Tooltip container</div>
+<%= render :partial => 'top_edges' %>
 
 <h1>Prototype Version</h1>
 <p id="see-other">See the <%= link_to "JQuery Version",  :action => 'index' %></p>
@@ -13,12 +12,4 @@
 <%= render :partial => 'boxes' %>
 <%= render :partial => 'nubbins' %>
 
-<div id="bottom-left-container" class="box">Top Left Tooltip container</div>
-<div id="bottom-right-container" class="box">Top Right Tooltip container</div>
-
-<div id="edge-tooltip" class="tooltip">This is a tooltip displayed at the edge of the page.</div>
-
-<%= context_tooltip("#edge-tooltip", :contextElement => "'top-left-container'", :position => "'bottom-right'") %>
-<%= context_tooltip("#edge-tooltip", :contextElement => "'top-right-container'", :position => "'bottom-left'") %>
-<%= context_tooltip("#edge-tooltip", :contextElement => "'bottom-left-container'", :position => "'top-right'") %>
-<%= context_tooltip("#edge-tooltip", :contextElement => "'bottom-right-container'", :position => "'top-left'") %>
+<%= render :partial => 'bottom_edges' %>
