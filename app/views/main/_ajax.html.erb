@@ -1,0 +1,5 @@
+<div id="ajax-container" class="box">
+  This container has a tooltip loaded by ajax.
+</div>
+
+<%= context_tooltip("#ajax-tooltip", :contextElement => "'ajax-container'", :remoteUrlOptions => {:url => "'/main/ajax'"}) %>
