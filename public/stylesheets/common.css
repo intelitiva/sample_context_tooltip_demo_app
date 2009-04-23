@@ -37,3 +37,11 @@
 #bottom-right-container {
   float: right;
 }
+
+.scrollBox {
+  height: 140px;
+  overflow-y: scroll;
+  border: 1px solid black;
+  padding: 4px 0px;
+  margin: 10px 0px;
+}

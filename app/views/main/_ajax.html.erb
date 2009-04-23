@@ -3,3 +3,23 @@
 </div>
 
 <%= context_tooltip("#ajax-tooltip", :contextElement => "'ajax-container'", :remoteUrlOptions => {:url => "'/main/ajax'"}) %>
+
+<div class="scrollBox">
+  <div id="ajax-container-1" class="box">
+    This container has a tooltip loaded by ajax.
+  </div>
+  <div id="ajax-container-2" class="box">
+    This container has a tooltip loaded by ajax.
+  </div>
+  <div id="ajax-container-3" class="box">
+    This container has a tooltip loaded by ajax.
+  </div>
+  <div id="ajax-container-4" class="box">
+    This container has a tooltip loaded by ajax.
+  </div>
+</div>
+
+<%= context_tooltip("#ajax-tooltip-1", :contextElement => "'ajax-container-1'", :remoteUrlOptions => {:url => "'/main/ajax'"}, :position => "'bottom-right'") %>
+<%= context_tooltip("#ajax-tooltip-2", :contextElement => "'ajax-container-2'", :remoteUrlOptions => {:url => "'/main/ajax'"}, :position => "'bottom-right'") %>
+<%= context_tooltip("#ajax-tooltip-3", :contextElement => "'ajax-container-3'", :remoteUrlOptions => {:url => "'/main/ajax'"}, :position => "'bottom-right'") %>
+<%= context_tooltip("#ajax-tooltip-4", :contextElement => "'ajax-container-4'", :remoteUrlOptions => {:url => "'/main/ajax'"}, :position => "'bottom-right'") %>
