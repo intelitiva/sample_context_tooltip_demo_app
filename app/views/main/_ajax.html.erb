@@ -4,6 +4,12 @@
 
 <%= context_tooltip("#ajax-tooltip", :contextElement => "'ajax-container'", :remoteUrlOptions => {:url => "'/main/ajax'"}) %>
 
+<div id="positioned-ajax-container" class="box">
+  This container has a positioned tooltip loaded by ajax.
+</div>
+
+<%= context_tooltip("#positioned-ajax-tooltip", :contextElement => "'positioned-ajax-container'", :remoteUrlOptions => {:url => "'/main/ajax'"}, :position => "'bottom-right'") %>
+
 <div class="scrollBox">
   <div id="ajax-container-1" class="box">
     This container has a tooltip loaded by ajax.

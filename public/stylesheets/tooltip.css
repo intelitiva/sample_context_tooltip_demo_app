@@ -8,3 +8,10 @@
   right: -160px;
   background-color: white;
 }
+
+#positioned-ajax-tooltip {
+  border: 1px solid green;
+  padding: 3px;
+  width: 150px;
+  background-color: white;
+}
