@@ -9,9 +9,7 @@
 
 <div id="javascript-log"></div>
 
-<%= link_to_function 'foo', :id => 'foo' do |page| page.replace_html 'foo', 'bar'; end %>
-
 <%= render :partial => 'boxes' %>
 <%= render :partial => 'nubbins' %>
-<%= render :partial => 'ajax' %>
+<%= render :partial => 'ajax', :locals => { :prototype => true } %>
 <%= render :partial => 'bottom_edges' %>

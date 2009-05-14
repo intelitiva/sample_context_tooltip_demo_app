@@ -1,0 +1,8 @@
+<div id="added-container-<%= index %>" class="box added">
+  This container has been added via ajax and has a positioned tooltip already there.
+</div>
+<p id="added-container-<%= index %>-tooltip" class="tooltipContent">
+  This is a tooltip that comes with the container.
+</p>
+
+<%= context_tooltip("#added-container-#{index}-tooltip", :contextElement => "'added-container-#{index}'", :position => "'bottom-left'", :onWindowLoad => false) %>

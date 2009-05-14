@@ -1,3 +1,15 @@
+<div id="added-containers-box">
+  <% if prototype %>
+    <%= link_to_function "Add Ajax Container Here", "new Ajax.Request('/main/add_ajax_container', {asynchronous:true, evalScripts:true, method:'get', parameters:{prototype:true}})" %> ||
+    <%= link_to_function "Add Container Here", "new Ajax.Request('/main/add_container', {asynchronous:true, evalScripts:true, method:'get', parameters:{prototype:true}})" %>
+  <% else %>
+    <%= link_to_remote "Add Ajax Container Here", :url => '/main/add_ajax_container' %> |
+    <%= link_to_remote "Add Container Here", :url => '/main/add_container' %>
+  <% end %>
+  <div id="added-containers">
+  </div>
+</div>
+
 <div id="ajax-container" class="box">
   This container has a tooltip loaded by ajax.
 </div>
