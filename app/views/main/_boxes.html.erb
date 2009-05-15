@@ -10,6 +10,6 @@
     <a onclick="closeContextTooltip('my-tooltip-<%= index %>')">close link without class</a>
     <input type="button" value="close button" class="close"/>
   </div>
-  <%= context_tooltip("#my-tooltip-#{index}", :contextElement => "'my-paragraph-#{index}'") %>
+  <%= context_tooltip("#my-tooltip-#{index}", :contextElement => "'my-paragraph-#{index}'", :click => "'keep'") %>
 </div>
 <% end %>

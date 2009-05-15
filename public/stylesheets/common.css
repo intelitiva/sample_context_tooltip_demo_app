@@ -1,5 +1,14 @@
-#see-other {
+.seeOther {
   margin-bottom: 25px;
+  font-size: 10px;
+}
+
+p.seeOther a {
+  color: red;
+}
+
+p.seeOther a:visited {
+  color: red;
 }
 
 #javascript-log {
@@ -8,6 +17,7 @@
   height: 200px;
   border: 1px dotted blue;
   overflow: auto;
+  margin-bottom: 20px;
 }
 
 #javascript-log p {
@@ -63,4 +73,20 @@
   border: 1px solid black;
   padding: 4px 0px;
   margin: 10px 0px;
+}
+
+.oneTooltipPerContainer, .oneTooltipForAllContainers {
+  clear: both;
+  border: 1px solid blue;
+  padding: 5px;
+  margin: 10px;
+}
+
+.performanceContainer {
+  float: left;
+  display: inline;
+}
+
+.clear {
+  clear: both;
 }

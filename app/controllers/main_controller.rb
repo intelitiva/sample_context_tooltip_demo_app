@@ -5,6 +5,12 @@ class MainController < ApplicationController
   def prototype
   end
 
+  def jquery_performance
+  end
+
+  def prototype_performance
+  end
+
   def ajax
     render :partial => 'ajax_content'
   end
