@@ -1,0 +1,21 @@
+<div class="oneTooltipPerContainer">
+  <h2>One Tooltip Per Container</h2>
+  <% (1..30).each do |index| %>
+    <div id="container-<%= index %>" class="box performanceContainer">
+      This is a container used to check performance of tooltips.
+    </div>
+    <%= context_tooltip "#container-#{index}-tooltip", :contextElement => "'container-#{index}'", :remoteUrlOptions => {:url => "'/main/ajax'"}, :position => "'bottom-right'", :displayWhenClicked => true %>
+  <% end %>
+  <div class="clear"></div>
+</div>
+
+<div class="oneTooltipForAllContainers">
+  <h2>One Tooltip For All Containers</h2>
+  <% (1..30).each do |index| %>
+    <div id="container-single-<%= index %>" class="box performanceContainer">
+      This is a container used to check performance of tooltips.
+    </div>
+    <%= context_tooltip "#container-tooltip", :contextElement => "'container-single-#{index}'", :remoteUrlOptions => {:url => "'/main/ajax'"}, :position => "'bottom-right'", :displayWhenClicked => true %>
+  <% end %>
+  <div class="clear"></div>
+</div>

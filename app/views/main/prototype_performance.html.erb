@@ -1,0 +1,10 @@
+<% content_for :javascripts do %>
+  <%= javascript_include_tag 'prototype', 'effects', 'controls', 'application', context_tooltip_javascript_file(:library => 'prototype', :unobtrusive => false) %>
+<% end %>
+
+<h1>Prototype Performance Version</h1>
+<%= render :partial => 'links' %>
+
+<div id="javascript-log"></div>
+
+<%= render :partial => "performance" %>
