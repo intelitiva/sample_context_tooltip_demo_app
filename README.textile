@@ -1,15 +1,1 @@
-h1. Sample Context Tooltip Demo App
-
-This is a demo application to show how to use the context tooltip plugin
-
-h2. Using
-
-This is a rails application, just clone it, and install the context tooltip plugin:
-
-<pre>
-  ./script/plugin install git://github.com/intelitiva/context_tooltip.git
-</pre>
-
-h2. Credits
-
-Vicente Mundim (vicente.mundim@intelitiva.com)
+Deprecated: repository has been moved to http://github.com/vicentemundim/context_tooltip_demo_app
